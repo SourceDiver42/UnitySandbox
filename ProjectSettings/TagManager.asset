@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FSTOP_Copiable
+  - FSTOP_Copy
+  - PortableWall
   layers:
   - Default
   - TransparentFX

@@ -62,7 +62,12 @@
      <Compile Include="Assets\Scripts\Game Mechanics\Waypoints.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MenuButtonHandler.cs" />
+     <Compile Include="Assets\Scripts\Objects\Camera\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Objects\Camera\PortalView.cs" />
      <Compile Include="Assets\Scripts\Objects\DeathBarrier.cs" />
+     <Compile Include="Assets\Scripts\Objects\FStop\CopiableObject.cs" />
+     <Compile Include="Assets\Scripts\Objects\FStop\FStopCamera.cs" />
+     <Compile Include="Assets\Scripts\Objects\Portal\PortalGun.cs" />
      <Compile Include="Assets\Scripts\Objects\PressurePlate.cs" />
      <Compile Include="Assets\Scripts\Objects\Seasaw.cs" />
      <Compile Include="Assets\Scripts\Utilities\Enums.cs" />
@@ -104,6 +109,18 @@
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>D:/Windows/Dokumente/Unity/UnitySandbox/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>D:/Windows/Dokumente/Unity/UnitySandbox/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>D:/Windows/Dokumente/Unity/UnitySandbox/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>D:/Windows/Dokumente/Unity/UnitySandbox/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>D:/Windows/Dokumente/Unity/UnitySandbox/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>F:/GameDesign/Unity/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
